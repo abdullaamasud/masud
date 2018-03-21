@@ -1,0 +1,150 @@
+body{
+	font-family: arial;
+	font-size: 13px;
+	background: #f8f8fa;
+}
+#wrapper{
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto;
+}
+/*---/header/---*/
+#header{
+	width: auto;
+	overflow: auto;
+}
+#header_top{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+#logo{
+	width: 460px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+#logo h1{
+	margin: 0;
+	padding: 0;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 100;
+}
+#cari{
+	width: 460px;
+	overflow: auto;
+	float: left;
+	margin: 25px 10px 10px 10px;
+}
+#cari form{
+	float: right;
+}
+#header_center{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+#menu_wrapper{
+	width: auto;
+	overflow: auto;
+	background: #59b8cc;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	list-style: none;
+	float: left;
+}
+#menu li a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#menu li a:hover{
+	background: #1f1f21;
+}
+#header_bottom{
+	width: auto;
+	overflow: auto;
+	margin: 10px 0;
+}
+#slider{
+	width: auto;
+	overflow: auto;
+	margin: 0 8px;
+	border-radius: 5px;
+	border: solid 1px #ededed;
+}
+/*---/content/---*/
+#content{
+	width: auto;
+	overflow: auto;
+}
+#content_top{
+	margin: 10px;
+	text-align: justify;
+}
+#content_center{
+	width: auto;
+	overflow: auto;
+	border-bottom: solid 1px #ededed;
+}
+.cc_news{
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin: 10px;
+}
+.cc_news img{
+	border-radius: 5px;
+}
+.cc_news a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	display: block;
+	width: 80px;
+	text-align: center;
+}
+.cc_news a:hover{
+	background: #4ea6b7;
+}
+#content_bottom{
+	width: auto;
+	overflow: auto;
+}
+.cb_news{
+	width: 460px;
+	overflow: auto;
+	margin: 10px;
+	float: left;
+}
+.cb_news a{
+	background: #67bdcc;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	display: block;
+	width: 80px;
+	text-align: center;
+}
+.cb_news a:hover{
+	background: #4ea6b7;
+}
+/*---/footer/---*/
+#footer{
+	width: auto;
+	overflow: auto;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	margin: 10px 10px 0 10px;
+	border-radius: 5px;
+}
